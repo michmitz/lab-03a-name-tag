@@ -7,18 +7,31 @@
 .container {
     width: 500px;
     height: 100%;
+    border: solid 1px red;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: red;
     height: 100px;
 }
 
+.Hello {
+    font-size: 50px;
+    color: white;
+}
+
+.MyName {
+    color: white;
+
+}
+
 .namearea {
     display: grid;
-    grid-template-rows: 1fr 1fr 3fr;
     height: 150px;
     justify-content: center;
 
@@ -32,3 +45,10 @@
     height: 100px;
 
 }
+
+.buttoncontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
