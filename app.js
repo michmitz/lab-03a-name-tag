@@ -7,3 +7,12 @@ pinkButton.addEventListener('click', () => {
     PinkColorBottom.style.background = 'pink';
 })
 
+const greenButton = document.getElementById('greenbutton');
+console.log('Green')
+greenButton.addEventListener('click', () => { 
+    const GreenColorTop = document.getElementById('headerbackground');
+    GreenColorTop.style.background = 'lightgreen';
+    const GreenColorBottom = document.getElementById('footerbackground');
+    GreenColorBottom.style.background = 'lightgreen';
+})
+
