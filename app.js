@@ -16,3 +16,11 @@ greenButton.addEventListener('click', () => {
     GreenColorBottom.style.background = 'lightgreen';
 })
 
+const blueButton = document.getElementById('bluebutton');
+console.log('Blue')
+blueButton.addEventListener('click', () => { 
+    const blueColorTop = document.getElementById('headerbackground');
+    blueColorTop.style.background = 'lightblue';
+    const blueColorBottom = document.getElementById('footerbackground');
+    blueColorBottom.style.background = 'lightblue';
+})

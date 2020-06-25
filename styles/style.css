@@ -51,8 +51,8 @@ input {
 }
 
 .buttoncontainer {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-rows: 20% 20% 20%;
     justify-content: space-evenly;
 }
 
