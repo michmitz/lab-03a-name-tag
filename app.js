@@ -1,6 +1,9 @@
 const pinkButton = document.getElementById('pinkbutton');
 console.log('Pink')
 pinkButton.addEventListener('click', () => { 
-    const PinkColor = document.getElementById('backgroundtochange');
-    PinkColor.style.background = 'pink';
+    const PinkColorTop = document.getElementById('headerbackground');
+    PinkColorTop.style.background = 'pink';
+    const PinkColorBottom = document.getElementById('footerbackground');
+    PinkColorBottom.style.background = 'pink';
 })
+
