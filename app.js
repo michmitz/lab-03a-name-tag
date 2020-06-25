@@ -24,3 +24,15 @@ blueButton.addEventListener('click', () => {
     const blueColorBottom = document.getElementById('footerbackground');
     blueColorBottom.style.background = 'lightblue';
 })
+
+const nameInput = document.getElementById('NameInput');
+console.log('NameInput');
+
+const nameButton = document.getElementById('NameButton');
+console.log('NameButton');
+nameButton.addEventListener('click', () => {
+    const changeName = document.getElementById('namedisplay');
+    const value = nameInput.value;
+    changeName.textContent = value;
+} )
+

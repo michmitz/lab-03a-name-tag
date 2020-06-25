@@ -56,6 +56,13 @@ input {
     justify-content: space-evenly;
 }
 
-.nameEntry {
+.nameButton {
     max-height: 10px;
+}
+
+#namedisplay {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 40px;
+
 }
